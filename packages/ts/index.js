@@ -1,8 +1,8 @@
-const basic = require("@azuradara/eslint-config-basic");
+const base = require("@azuradara/eslint-config-base");
 
 module.exports = {
   extends: [
-    "@azuradara/eslint-config-basic",
+    "@azuradara/eslint-config-base",
     "plugin:import/typescript",
     "plugin:@typescript-eslint/recommended",
   ],
@@ -11,7 +11,7 @@ module.exports = {
       node: { extensions: [".js", ".jsx", ".mjs", ".ts", ".tsx", ".d.ts"] },
     },
   },
-  overrides: basic.overrides,
+  overrides: base.overrides,
   rules: {
     "import/named": "off",
 
