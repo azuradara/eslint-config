@@ -1,7 +1,7 @@
 {
   "name": "@azuradara/eslint-config-mono",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "ESLint config preset",
   "main": "index.js",
   "scripts": {
