@@ -1,5 +1,6 @@
 {
   "name": "@azuradara/eslint-config-mono",
+  "private": true,
   "version": "0.0.2-beta.4",
   "description": "ESLint config preset",
   "main": "index.js",
