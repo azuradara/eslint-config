@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "description": "ESLint config preset",
   "main": "index.js",
-  "private": true,
   "scripts": {
     "lint": "eslint .",
     "prepare": "pnpm -r run stub",
